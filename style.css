@@ -1,51 +1,93 @@
 @font-face {
-    font-family: 'Raleway-Bold';
-    src: url('./assets/fonts/Raleway-VariableFont_wght.ttf');
-    font-weight: 700;
+  font-family: "Raleway-Bold";
+  src: url("./assets/fonts/Raleway-VariableFont_wght.ttf");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('./assets/fonts/Raleway-VariableFont_wght.ttf');
-    font-weight: 300;
+  font-family: "Raleway";
+  src: url("./assets/fonts/Raleway-VariableFont_wght.ttf");
+  font-weight: 300;
 }
-
 
 body {
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
-header {
-    padding: 10px 10px 0px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+.widescreen {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.padding-left-right {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+/*@media (min-width: 1440px) {
+    .widescreen {
+        padding-left: calc((100% - 1160px) / 2);
+        padding-right: calc((100% - 1160px) / 2);
+    }*/
+
+/*== 1. SECTION ==*/
+.header-nav {
+  /* padding: 10px 10px 0px 10px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
+  list-style: none;
+  margin: 0;
 }
 
 nav ul li {
-    font-family: 'Raleway-Bold';
-    display: inline-block;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    font-size: 20px;
+  font-family: "Raleway-Bold";
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #3f3d3e;
+  text-decoration: none;
+  color: #3f3d3e;
 }
 
 nav a:hover {
-    color: #047D07;
-    font-weight: 700;
-    text-underline-offset: 16px;
-    text-decoration: underline;
+  color: #047d07;
+  font-weight: 700;
+  text-underline-offset: 16px;
+  text-decoration: underline;
 }
 
+/*= Content =*/
+.daily-recipe {
+  display: flex;
+  background-color: white;
+  gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 5px;
+}
+
+.daily-recipe img {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.daily-recipe h2{
+font-size: 40px;
+}
+
+.daily-recipe p{
+font-size: 40px;
+}
+
+/*== 2. SECTION ==*/
