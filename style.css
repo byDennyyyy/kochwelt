@@ -194,3 +194,31 @@ nav a:hover {
 
 }
 /*== 3. SECTION ==*/
+.PoW {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 48px;
+  padding-bottom: 112px;
+  margin-top: 5px;
+}
+
+.PoW-txt-img{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.PoW-txt-img img{
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.PoW-txt{
+  display: flex;
+  justify-content: flex-start;
+}
+/*== FOOTER SECTION ==*/
