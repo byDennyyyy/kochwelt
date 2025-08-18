@@ -121,3 +121,43 @@ nav a:hover {
   font-size: 20px;
 }
 /*== 2. SECTION ==*/
+
+.ideas {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(219, 219, 219);
+}
+
+.ideas h2 {
+  font-family: "Raleway-Regular";
+  margin: 0px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.ideas img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  object-fit: cover;
+}
+
+.ideas a {
+  font-family: "Raleway-Regular";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.ideas-picker {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 96px;
+  gap: 8px;
+
+}
+/*== 3. SECTION ==*/
