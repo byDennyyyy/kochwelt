@@ -129,12 +129,16 @@ nav a:hover {
 
 .daily-recipe button {
   background-color: #028102;
-  color: white;
   padding: 10px 48px;
   border: 1px;
   cursor: pointer;
   font-family: "Raleway-Regular";
   font-size: 20px;
+}
+
+.daily-recipe button a {
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 720px) {
