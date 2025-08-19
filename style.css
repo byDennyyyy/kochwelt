@@ -25,6 +25,13 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+h1 {
+  font-size: 36px;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
 .widescreen {
   max-width: 1440px;
   margin: 0 auto;
@@ -238,11 +245,58 @@ nav a:hover {
 }
 
 figure {
-     display: flex;
-     align-items: center;
-     background-color: rgb(219, 219, 219);
-     margin-inline-start: 10px;
-     margin-inline-end: 10px;
-     padding: 5px 10px;
-     border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #EEEFEE;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.recipe-image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ingredients {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 32px;
+}
+
+.ingredients td {
+  padding: 12px 8px;
+}
+
+.ingredients tr:nth-child(even) {
+  background-color: #EEEFEE;
+}
+
+.portion-input {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.portion-input input {
+  margin-left: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.portion-input button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #047d07;
+  color: white;
+  cursor: pointer;
+}
+
+.portion-input button:hover {
+  background-color: #036d06;
 }
