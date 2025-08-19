@@ -198,7 +198,6 @@ nav a:hover {
   justify-content: space-between;
   padding-bottom: 96px;
   gap: 8px;
-
 }
 
 @media (max-width: 1080px) {
@@ -264,23 +263,38 @@ nav a:hover {
   margin-top: 5px;
 }
 
-.PoW-txt-img{
+.PoW-txt-img {
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
 
-.PoW-txt-img img{
+.PoW-txt-img img {
   height: 300px;
   width: auto;
   border-radius: 10px;
 }
 
-.PoW-txt{
+.PoW-txt {
   display: flex;
   justify-content: flex-start;
 }
 /*== FOOTER SECTION ==*/
+
+footer {
+  background-color: #929292;
+}
+
+.footer-content {
+  background-color: #929292;
+}
+
+.footer-logo-img {
+  height: 100px;
+  width: auto;
+  filter: invert(95%) sepia(100%) saturate(18%) hue-rotate(236deg)
+    brightness(103%) contrast(100%);
+}
 
 /*== RECIPE SITE ==*/
 
@@ -299,7 +313,7 @@ nav a:hover {
 figure {
   display: flex;
   align-items: center;
-  background-color: #EEEFEE;
+  background-color: #eeefee;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
   padding: 5px 10px;
@@ -324,7 +338,7 @@ figure {
 }
 
 .ingredients tr:nth-child(even) {
-  background-color: #EEEFEE;
+  background-color: #eeefee;
 }
 
 .portion-input {
