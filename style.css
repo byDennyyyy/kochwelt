@@ -206,6 +206,58 @@ nav a:hover {
   gap: 8px;
 
 }
+
+@media (max-width: 1080px) {
+  .ideas {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .ideas img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+  }
+  .ideas-picker {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ideas h2 {
+    font-size: 26px;
+  }
+
+  .ideas-picker {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 48px;
+  }
+  .ideas img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .ideas {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ideas h2 {
+    font-size: 22px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .ideas img {
+    max-width: 200px;
+  }
+  .ideas {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
 /*== 3. SECTION ==*/
 .PoW {
   display: flex;
