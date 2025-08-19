@@ -312,8 +312,8 @@ footer {
 }
 
 .footer-logo-img {
-  height: 100px;
-  width: 350px;
+  height: 80px;
+  width: auto;
   filter: invert(95%) sepia(100%) saturate(18%) hue-rotate(236deg)
     brightness(103%) contrast(100%);
 }
