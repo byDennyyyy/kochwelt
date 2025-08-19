@@ -375,13 +375,12 @@ footer {
 }
 
 .social-links {
-display: flex;
-gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .social-links img {
-  height: 56px
-  
+  height: 56px;
 }
 
 /*== RECIPE SITE ==*/
@@ -489,12 +488,82 @@ figure {
   margin-bottom: 0;
 }
 
+/*== CONTACT SITE ==*/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1200px;
+  margin: 0;
+}
+
+.contact-box {
+  background-color: #dbdbdb;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box h2 {
+  font-family: "Raleway-Regular";
+  font-size: 32px;
+  margin-top: 0;
+}
+
+form p {
+  font-family: "Raleway";
+  font-size: 16px;
+  margin: 0;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 1px ;
+  border-radius: 4px;
+  height: 24px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+textarea {
+  border: 1px;
+  border-radius: 4px;
+  height: 300px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.submit {
+  background-color: #028102;
+  color: white;
+  padding: 10px 40px;
+  border: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Raleway-Regular";
+  font-size: 20px;
+}
+
+.submit:hover {
+  background-color: #05970a;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 /*== IMPRINT SITE ==*/
 
 .imprint {
   text-align: center;
-  font-family: 'Raleway-Regular';
+  font-family: "Raleway-Regular";
 }
 
 @media (max-width: 1080px) {
@@ -529,11 +598,13 @@ figure {
     padding-top: 8px;
     padding-bottom: 6px;
   }
-  .imprint h3, .imprint h4 {
+  .imprint h3,
+  .imprint h4 {
     font-size: 14px;
     padding-top: 4px;
   }
-  .imprint p, .imprint ul {
+  .imprint p,
+  .imprint ul {
     font-size: 13px;
   }
   .imprint ul {
