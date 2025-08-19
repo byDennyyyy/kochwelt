@@ -488,3 +488,55 @@ figure {
   margin-top: 32px;
   margin-bottom: 0;
 }
+
+
+/*== IMPRINT SITE ==*/
+
+.imprint {
+  text-align: center;
+  font-family: 'Raleway-Regular';
+}
+
+@media (max-width: 1080px) {
+  .imprint-section {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .imprint h1 {
+    font-size: 30px;
+    padding-top: 48px;
+    padding-bottom: 24px;
+  }
+  .imprint h2 {
+    font-size: 22px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .imprint-section {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .imprint h1 {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+  }
+  .imprint h2 {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .imprint h3, .imprint h4 {
+    font-size: 14px;
+    padding-top: 4px;
+  }
+  .imprint p, .imprint ul {
+    font-size: 13px;
+  }
+  .imprint ul {
+    padding-left: 18px;
+  }
+}
