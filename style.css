@@ -61,6 +61,7 @@ h3 {
   justify-content: space-between;
   align-items: flex-end;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 16px;
 }
 
 header img {
@@ -310,7 +311,7 @@ footer {
 .recipe-info {
   display: flex;
   align-items: center;
-  margin-top: 16px;
+  justify-content: start;
 }
 
 .recipe-info img {
@@ -323,9 +324,9 @@ figure {
   display: flex;
   align-items: center;
   background-color: #eeefee;
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
-  padding: 5px 10px;
+  margin-inline-start: 0;
+  margin-inline-end: 20px;
+  padding: 6px 10px;
   border-radius: 10px;
 }
 
@@ -402,4 +403,9 @@ figure {
   width: 100px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.recipe-section-title {
+  margin-top: 32px;
+  margin-bottom: 0;
 }
