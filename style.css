@@ -313,17 +313,30 @@ footer {
 
 .footer-logo-img {
   height: 100px;
-  width: 360px;
+  width: 350px;
   filter: invert(95%) sepia(100%) saturate(18%) hue-rotate(236deg)
     brightness(103%) contrast(100%);
 }
 
 .footer-links a {
   color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #028102;
+  font-weight: 700;
+  transition: all 0.4s ease-in-out;
+  text-underline-offset: 12px;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-shadow: 1px 1px 1px 0.2 #028102;
 }
 
 .separator {
   color: white;
+  font-size: 20px;
 }
 
 .footer-content-right {
@@ -349,7 +362,8 @@ gap: 16px;
 }
 
 .social-links img {
-  height: 56px;
+  height: 56px
+  
 }
 
 /*== RECIPE SITE ==*/
