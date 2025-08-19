@@ -168,10 +168,13 @@ nav a:hover {
 }
 /*== 2. SECTION ==*/
 
+.ideas-bg {
+  background-color: rgb(219, 219, 219);
+}
+
 .ideas {
   display: flex;
   flex-direction: column;
-  background-color: rgb(219, 219, 219);
 }
 
 .ideas h2 {
