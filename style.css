@@ -469,6 +469,7 @@ figure {
   display: flex;
   align-items: center;
   margin-top: 16px;
+  margin-bottom: 80px;
 }
 
 .profile span {
