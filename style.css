@@ -32,6 +32,12 @@ h1 {
   padding-bottom: 30px;
 }
 
+h3 {
+  font-size: 16px;
+  margin: 0;
+  padding-top: 16px;
+}
+
 .widescreen {
   max-width: 1440px;
   margin: 0 auto;
@@ -82,13 +88,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #047d07;
+  color: #028102;
   font-weight: 700;
   transition: all 0.4s ease-in-out;
   text-underline-offset: 12px;
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-shadow: 1px 1px 1px 0.2 #047d07;
+  text-shadow: 1px 1px 1px 0.2 #028102;
 }
 
 /*= Content =*/
@@ -121,7 +127,7 @@ nav a:hover {
 }
 
 .daily-recipe button {
-  background-color: #047d07;
+  background-color: #028102;
   color: white;
   padding: 10px 48px;
   border: 1px;
@@ -264,14 +270,14 @@ figure {
 .ingredients {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 32px;
+  margin-top: 8px;
 }
 
 .ingredients td {
   padding: 12px 8px;
 }
 
-.ingredients tr:nth-child(even) {
+.ingredients tr:nth-child(odd) {
   background-color: #EEEFEE;
 }
 
@@ -283,20 +289,38 @@ figure {
 
 .portion-input input {
   margin-left: 8px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #f1eaea;
+  border-radius: 5px 0 0 5px;
 }
 
 .portion-input button {
-  padding: 8px 12px;
+  padding: 11px 32px;
   border: none;
-  border-radius: 4px;
-  background-color: #047d07;
+  border-radius: 0;
+  background-color: #028102;
   color: white;
   cursor: pointer;
 }
 
 .portion-input button:hover {
-  background-color: #036d06;
+  background-color: #05970a;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.profile span {
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+.profile img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
 }
