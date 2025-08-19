@@ -136,6 +136,10 @@ nav a:hover {
   font-size: 20px;
 }
 
+.daily-recipe button:hover {
+  background-color: #05970a;
+}
+
 .daily-recipe button a {
   text-decoration: none;
   color: white;
@@ -332,7 +336,7 @@ footer {
 .footer-links a:hover {
   color: #028102;
   font-weight: 700;
-  transition: all 0.05s ease-in-out;
+  transition: all 0.2s ease-in-out;
   text-underline-offset: 12px;
   text-decoration: underline;
   text-decoration-thickness: 4px;
@@ -359,6 +363,15 @@ footer {
   cursor: pointer;
   font-family: "Raleway-Regular";
   font-size: 20px;
+}
+
+.footer-content-right-button:hover {
+  background-color: #05970a;
+}
+
+.footer-content-right-button a {
+  text-decoration: none;
+  color: white;
 }
 
 .social-links {
