@@ -294,15 +294,61 @@ footer {
   background-color: #929292;
 }
 
-.footer-content {
+.footer-container {
   background-color: #929292;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 80px;
+  padding-bottom: 64px;
+}
+
+.footer-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: start;
 }
 
 .footer-logo-img {
   height: 100px;
-  width: auto;
+  width: 360px;
   filter: invert(95%) sepia(100%) saturate(18%) hue-rotate(236deg)
     brightness(103%) contrast(100%);
+}
+
+.footer-links a {
+  color: white;
+}
+
+.separator {
+  color: white;
+}
+
+.footer-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.footer-content-right-button {
+  background-color: #028102;
+  color: white;
+  padding: 10px 24px;
+  border: 1px;
+  cursor: pointer;
+  font-family: "Raleway-Regular";
+  font-size: 20px;
+}
+
+.social-links {
+display: flex;
+gap: 16px;
+}
+
+.social-links img {
+  height: 56px;
 }
 
 /*== RECIPE SITE ==*/
@@ -339,7 +385,7 @@ figure {
 .ingredients {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 8px;  
+  margin-top: 8px;
 }
 
 .ingredients td {
