@@ -75,7 +75,7 @@ header img {
 
 .header-line {
   height: 10px;
-  background: linear-gradient(#ECECED, #ffffff);
+  background: linear-gradient(#ececed, #ffffff);
 }
 
 nav ul {
@@ -166,21 +166,29 @@ nav a:hover {
   }
 
   .padding-left-right {
-   padding-left: 80px;
-   padding-right: 80px;
+    padding-left: 56px;
+    padding-right: 56px;
   }
 
   .daily-recipe img {
     height: 200px;
   }
+
+  .daily-recipe p {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 768px) {
   .padding-left-right {
-   padding-left: 20px;
-   padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
+
+  .header-nav {
+    justify-content: center;
+  }
+
   nav ul {
     display: none;
   }
@@ -193,6 +201,8 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     gap: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .daily-recipe img {
@@ -211,12 +221,23 @@ nav a:hover {
     text-align: center;
     font-size: 16px;
   }
+
+  .button-wrapper-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .daily-recipe button {
+    font-size: 16px;
+    padding: 10px 32px;
+  }
 }
 
 /*== 2. SECTION ==*/
 
 .ideas-bg {
-  background-color: #EEEFEE;
+  background-color: #eeefee;
 }
 
 .ideas {
@@ -256,9 +277,8 @@ nav a:hover {
 
 @media (max-width: 1080px) {
   .ideas img {
-    max-width: 220px;
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
   }
   .ideas-picker {
     gap: 16px;
@@ -273,9 +293,10 @@ nav a:hover {
     padding-bottom: 48px;
   }
   .ideas img {
-    width: 100%;
+    height: 300px;
     max-width: 300px;
-    height: auto;
+    width: auto;
+    border-radius: 10px;
   }
   .ideas {
     padding-left: 24px;
@@ -290,14 +311,25 @@ nav a:hover {
     padding-bottom: 24px;
   }
   .ideas img {
-    max-width: 200px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
   }
   .ideas {
     padding-left: 8px;
     padding-right: 8px;
   }
 }
+
+@media (max-width: 400px) {
+  .ideas img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
 /*== 3. SECTION ==*/
+
 .PoW {
   display: flex;
   align-items: center;
@@ -332,9 +364,13 @@ nav a:hover {
 }
 
 @media (max-width: 1080px) {
+  .PoW {
+    padding-bottom: 80px;
+}
+
   .PoW-txt-img img {
     height: 200px;
-  }
+  }  
 }
 
 @media (max-width: 768px) {
@@ -357,11 +393,12 @@ nav a:hover {
   .PoW {
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 48px;
   }
 }
 
 @media (max-width: 600px) {
-
   .PoW h2 {
     font-size: 22px;
     padding-top: 24px;
@@ -433,6 +470,11 @@ footer {
   font-size: 20px;
 }
 
+.separator-hide {
+  color: white;
+  font-size: 20px;
+}
+
 .footer-content-right {
   display: flex;
   flex-direction: column;
@@ -462,7 +504,7 @@ footer {
 
 .social-links {
   display: flex;
-  gap: 16px;
+  gap: 4px;
 }
 
 .social-links img {
@@ -518,6 +560,42 @@ footer {
   }
 }
 
+@media (max-width: 600px) {
+  .social-links {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0 !important;
+  }
+
+  .footer-container {
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .footer-content-left {
+    align-items: center;
+  }
+}
+
+@media (max-width: 434px) {
+  .footer-container {
+    gap: 20px;
+  }
+
+  .footer-content-left {
+    width: 240px;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  .separator-hide {
+    display: none;
+  }
+}
+
 /*== RECIPE SITE ==*/
 
 .recipe-info {
@@ -535,15 +613,11 @@ footer {
 figure {
   display: flex;
   align-items: center;
-  background-color: #EEEFEE;
+  background-color: #eeefee;
   margin-inline-start: 0;
   margin-inline-end: 20px;
   padding: 6px 10px;
   border-radius: 10px;
-}
-
-hr {
-  background-color: rgb(167, 32, 32);
 }
 
 .recipe-image {
@@ -580,7 +654,7 @@ hr {
 .portion-input {
   display: flex;
   align-items: center;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .portion-input input {
@@ -602,6 +676,12 @@ hr {
 
 .portion-input button:hover {
   background-color: #05970a;
+}
+
+.portion-line {
+  height: 2px;
+  background-color: #f1eaea;
+  margin-top: 32px;
 }
 
 .profile {
@@ -701,8 +781,9 @@ textarea {
 /*== IMPRINT SITE ==*/
 
 .imprint {
-  text-align: center;
+  text-align: left;
   font-family: "Raleway-Regular";
+  padding-bottom: 48px;
 }
 
 @media (max-width: 1080px) {
