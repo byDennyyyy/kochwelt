@@ -538,7 +538,7 @@ footer {
   .social-links div{
   width: 68px;
   height: 32px;
-}
+  }
 
   .footer-container {
     padding: 32px 24px;
@@ -569,6 +569,10 @@ footer {
     padding: 32px 24px;
   }
 
+  .social-links div{
+    padding-bottom: 4px;
+  }
+
   .footer-content-left {
     align-items: center;
   }
@@ -577,8 +581,6 @@ footer {
     padding-top: 16px;
   }
 }
-
-
 
 /*== RECIPE SITE ==*/
 
