@@ -687,8 +687,8 @@ figure {
 .profile {
   display: flex;
   align-items: center;
-  margin-top: 16px;
-  margin-bottom: 112px;
+  margin-top: 24px;
+  margin-bottom: 104px;
 }
 
 .profile span {
