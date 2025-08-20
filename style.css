@@ -544,10 +544,6 @@ figure {
   border-radius: 10px;
 }
 
-hr {
-  background-color: rgb(167, 32, 32);
-}
-
 .recipe-image {
   height: 250px;
   width: 100%;
