@@ -407,6 +407,10 @@ figure {
   border-radius: 10px;
 }
 
+hr {
+background-color: rgb(167, 32, 32);
+}
+
 .recipe-image {
   height: 250px;
   width: 100%;
@@ -519,9 +523,8 @@ form p {
   margin: 0;
 }
 
-input[type="text"],
-input[type="email"] {
-  border: 1px ;
+.input-form {
+  border: 1px;
   border-radius: 4px;
   height: 24px;
   width: 100%;
