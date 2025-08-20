@@ -465,6 +465,11 @@ footer {
   font-size: 20px;
 }
 
+.separator-hide {
+  color: white;
+  font-size: 20px;
+}
+
 .footer-content-right {
   display: flex;
   flex-direction: column;
