@@ -491,7 +491,7 @@ footer {
 
 .social-links {
   display: flex;
-  gap: 4px;
+  gap: 4px;  
 }
 
 .social-links img {
@@ -781,8 +781,6 @@ textarea {
 @media (max-width: 768px) {
   .recipe-info {
     font-size: 14px;
-    /* flex-direction: column;
-    align-items: center; */
   }
 
   .imprint-section {
