@@ -346,6 +346,7 @@ nav a:hover {
   .PoW-txt-img img {
     width: 100%;
     height: auto;
+    max-width: 300px;
   }
 
   .PoW-txt p {
@@ -367,13 +368,13 @@ nav a:hover {
     padding-bottom: 24px;
   }
 
-  .PoW-txt-img img {
-    max-width: 320px;
-  }
-
   .PoW {
     padding-left: 8px;
     padding-right: 8px;
+  }
+
+  .footer-content-right-button {
+    display: none;
   }
 }
 
