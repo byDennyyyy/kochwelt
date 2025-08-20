@@ -839,6 +839,11 @@ textarea {
 }
 
 @media (max-width: 600px) {
+  .portion-input {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+  }
   .ingredients {
     font-size: 14px;
   }
