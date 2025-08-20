@@ -494,6 +494,14 @@ footer {
   gap: 4px;  
 }
 
+.social-links div{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  border-radius: 20%;
+}
+
 .social-links img {
   height: 56px;
 }
