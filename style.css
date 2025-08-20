@@ -90,7 +90,7 @@ nav a {
   text-decoration: underline;
   text-decoration-color: transparent;
   color: #3f3d3e;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.15s ease-in-out;
   text-underline-offset: 12px;
   text-decoration-thickness: 4px;
 }
@@ -136,7 +136,7 @@ nav a:hover {
   cursor: pointer;
   font-family: "Raleway-Regular";
   font-size: 20px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .daily-recipe button:hover {
@@ -438,7 +438,7 @@ footer {
   font-size: 20px;
   font-family: "Raleway-Regular";
   text-decoration: transparent;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.15s ease-in-out;
   text-underline-offset: 12px;
   text-decoration-thickness: 4px;
 }
@@ -477,7 +477,7 @@ footer {
   cursor: pointer;
   font-family: "Raleway-Regular";
   font-size: 20px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .footer-content-right-button:hover {
@@ -657,7 +657,7 @@ figure {
   background-color: #028102;
   color: white;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .portion-input button:hover {
