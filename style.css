@@ -503,7 +503,7 @@ footer {
 }
 
 .social-links img {
-  height: 56px;
+  height: 48px;
 }
 
 @media (max-width: 1080px) {
@@ -513,10 +513,6 @@ footer {
 
   .footer-links a {
     font-size: 16px;
-  }
-
-  .social-links img {
-    height: 48px;
   }
 
   .footer-container {
@@ -538,6 +534,11 @@ footer {
   .social-links img {
     height: 32px;
   }
+
+  .social-links div{
+  width: 68px;
+  height: 32px;
+}
 
   .footer-container {
     padding: 32px 24px;
