@@ -258,7 +258,7 @@ nav a:hover {
   .ideas img {
     max-width: 220px;
     width: 100%;
-    height: auto;
+    height: 200px;
   }
   .ideas-picker {
     gap: 16px;
@@ -273,9 +273,10 @@ nav a:hover {
     padding-bottom: 48px;
   }
   .ideas img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+  height: 300px;
+  max-width: 300px;
+  width: auto;
+  border-radius: 10px;
   }
   .ideas {
     padding-left: 24px;
@@ -290,11 +291,20 @@ nav a:hover {
     padding-bottom: 24px;
   }
   .ideas img {
-    max-width: 200px;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
   }
   .ideas {
     padding-left: 8px;
     padding-right: 8px;
+  }
+}
+
+@media (max-width:400px) {
+  .ideas img {
+    height: 250px;
+    width: 250px;
   }
 }
 
