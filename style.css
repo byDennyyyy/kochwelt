@@ -352,6 +352,29 @@ nav a:hover {
     text-align: center;
     font-size: 16px;
   }
+
+  .PoW {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .PoW h2 {
+    font-size: 22px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .PoW-txt-img img {
+    max-width: 320px;
+  }
+
+  .PoW {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
 
 /*== FOOTER SECTION ==*/
