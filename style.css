@@ -75,7 +75,7 @@ header img {
 
 .header-line {
   height: 10px;
-  background: linear-gradient(#ECECED, #ffffff);
+  background: linear-gradient(#ececed, #ffffff);
 }
 
 nav ul {
@@ -166,8 +166,8 @@ nav a:hover {
   }
 
   .padding-left-right {
-   padding-left: 80px;
-   padding-right: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .daily-recipe img {
@@ -181,10 +181,10 @@ nav a:hover {
 
 @media (max-width: 768px) {
   .padding-left-right {
-   padding-left: 20px;
-   padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
+
   nav ul {
     display: none;
   }
@@ -226,7 +226,7 @@ nav a:hover {
 /*== 2. SECTION ==*/
 
 .ideas-bg {
-  background-color: #EEEFEE;
+  background-color: #eeefee;
 }
 
 .ideas {
@@ -373,7 +373,6 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
-
   .PoW h2 {
     font-size: 22px;
     padding-top: 24px;
@@ -547,7 +546,7 @@ footer {
 figure {
   display: flex;
   align-items: center;
-  background-color: #EEEFEE;
+  background-color: #eeefee;
   margin-inline-start: 0;
   margin-inline-end: 20px;
   padding: 6px 10px;
@@ -717,6 +716,7 @@ textarea {
 .imprint {
   text-align: left;
   font-family: "Raleway-Regular";
+  margin: 80px;
 }
 
 @media (max-width: 1080px) {
