@@ -494,8 +494,16 @@ footer {
   gap: 4px;  
 }
 
+.social-links div{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  border-radius: 20%;
+}
+
 .social-links img {
-  height: 56px;
+  height: 48px;
 }
 
 @media (max-width: 1080px) {
@@ -505,10 +513,6 @@ footer {
 
   .footer-links a {
     font-size: 16px;
-  }
-
-  .social-links img {
-    height: 48px;
   }
 
   .footer-container {
@@ -529,6 +533,11 @@ footer {
 
   .social-links img {
     height: 32px;
+  }
+
+  .social-links div{
+  width: 68px;
+  height: 32px;
   }
 
   .footer-container {
@@ -560,6 +569,10 @@ footer {
     padding: 32px 24px;
   }
 
+  .social-links div{
+    padding-bottom: 4px;
+  }
+
   .footer-content-left {
     align-items: center;
   }
@@ -568,8 +581,6 @@ footer {
     padding-top: 16px;
   }
 }
-
-
 
 /*== RECIPE SITE ==*/
 
