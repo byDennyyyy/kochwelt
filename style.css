@@ -54,18 +54,11 @@ h3 {
   padding-right: 160px;
 }
 
-/*@media (min-width: 1440px) {
-    .widescreen {
-        padding-left: calc((100% - 1160px) / 2);
-        padding-right: calc((100% - 1160px) / 2);
-    }*/
-
 /*== 1. SECTION ==*/
 .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  /* box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1); */
   margin-top: 16px;
 }
 
