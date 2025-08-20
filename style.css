@@ -32,6 +32,11 @@ h1 {
   padding-bottom: 30px;
 }
 
+h2 {
+  font-family: "Raleway-Regular";
+  margin: 0;
+}
+
 h3 {
   font-size: 16px;
   margin: 0;
@@ -122,10 +127,7 @@ nav a:hover {
 }
 
 .daily-recipe h2 {
-  font-family: "Raleway-Regular";
-  font-size: 32px;
-  margin: 0;
-  margin-bottom: 32px;
+  padding-bottom: 24px;
 }
 
 .daily-recipe p {
@@ -190,19 +192,24 @@ nav a:hover {
   .daily-recipe {
     flex-direction: column;
     align-items: center;
+    gap: 0;
   }
 
   .daily-recipe img {
     width: 100%;
+    max-width: 300px;
     height: auto;
   }
 
-  .daily-recipe h2 {
+  h2 {
     text-align: center;
+    font-size: 26px;
+    padding-top: 24px;
   }
 
   .daily-recipe p {
     text-align: center;
+    font-size: 16px;
   }
 }
 
@@ -218,8 +225,6 @@ nav a:hover {
 }
 
 .ideas h2 {
-  font-family: "Raleway-Regular";
-  margin: 0px;
   padding-top: 48px;
   padding-bottom: 48px;
   text-align: center;
@@ -261,10 +266,6 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  .ideas h2 {
-    font-size: 26px;
-  }
-
   .ideas-picker {
     flex-direction: column;
     align-items: center;
@@ -283,7 +284,7 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
-  .ideas h2 {
+  h2 {
     font-size: 22px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -308,6 +309,10 @@ nav a:hover {
   margin-top: 5px;
 }
 
+.PoW h2 {
+  padding-bottom: 32px;
+}
+
 .PoW-txt-img {
   display: flex;
   justify-content: space-between;
@@ -323,6 +328,7 @@ nav a:hover {
 .PoW-txt {
   display: flex;
   justify-content: flex-start;
+  font-size: 18px;
 }
 
 @media (max-width: 1080px) {
@@ -344,6 +350,7 @@ nav a:hover {
 
   .PoW-txt p {
     text-align: center;
+    font-size: 16px;
   }
 }
 
@@ -367,6 +374,7 @@ footer {
   flex-direction: column;
   gap: 16px;
   align-items: start;
+  padding-bottom: 16px;
 }
 
 .footer-logo-img {
@@ -474,6 +482,11 @@ footer {
   .footer-content-right-button {
     padding: 5px 10px;
     font-size: 16px;
+  }
+
+  .footer-content-left {
+    align-items: center;
+    padding-bottom: 0;
   }
 }
 
