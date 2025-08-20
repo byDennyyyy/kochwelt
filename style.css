@@ -569,27 +569,7 @@ footer {
   }
 }
 
-@media (max-width: 442px) {
-  .footer-container {
-    gap: 20px;
-  }
 
-  .footer-content-left {
-    width: 240px;
-  }
-
-  .footer-content-right {
-    padding-top: 0px;
-  }
-
-  .footer-links {
-    text-align: center;
-  }
-
-  .separator-hide {
-    display: none;
-  }
-}
 
 /*== RECIPE SITE ==*/
 
@@ -848,13 +828,35 @@ textarea {
   }
 }
 
+@media (max-width: 442px) {
+  .footer-container {
+    gap: 20px;
+  }
+
+  .footer-content-left {
+    width: 240px;
+  }
+
+  .footer-content-right {
+    padding-top: 0px;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  .separator-hide {
+    display: none;
+  }
+
+  .footer-links a:hover {
+    text-decoration: none;
+  }
+}
+
 @media (max-width: 400px) {
   .ideas img {
     height: 250px;
     width: 250px;
-  }
-
-.footer-links a:hover {
-    text-decoration: none;
   }
 }
