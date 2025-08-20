@@ -354,11 +354,11 @@ nav a:hover {
 @media (max-width: 1080px) {
   .PoW {
     padding-bottom: 80px;
-}
+  }
 
   .PoW-txt-img img {
     height: 200px;
-  }  
+  }
 }
 
 @media (max-width: 768px) {
@@ -423,7 +423,6 @@ footer {
   flex-direction: column;
   gap: 16px;
   align-items: start;
-  padding-bottom: 16px;
 }
 
 .footer-logo-img {
@@ -533,8 +532,7 @@ footer {
   }
 
   .footer-container {
-    padding-top: 40px;
-    padding-bottom: 32px;
+    padding: 32px 24px;
   }
 
   .footer-content-right-button {
@@ -559,20 +557,29 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 32px;
+    padding: 32px 24px;
   }
 
   .footer-content-left {
     align-items: center;
   }
+
+  .footer-content-right {
+    padding-top: 16px;
+  }
 }
 
-@media (max-width: 434px) {
+@media (max-width: 442px) {
   .footer-container {
     gap: 20px;
   }
 
   .footer-content-left {
     width: 240px;
+  }
+
+  .footer-content-right {
+    padding-top: 0px;
   }
 
   .footer-links {
