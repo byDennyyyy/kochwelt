@@ -144,6 +144,7 @@ nav a:hover {
   cursor: pointer;
   font-family: "Raleway-Regular";
   font-size: 20px;
+  transition: all 0.2s ease-in-out;
 }
 
 .daily-recipe button:hover {
@@ -448,6 +449,7 @@ footer {
   cursor: pointer;
   font-family: "Raleway-Regular";
   font-size: 20px;
+  transition: all 0.2s ease-in-out;
 }
 
 .footer-content-right-button:hover {
@@ -596,6 +598,7 @@ hr {
   background-color: #028102;
   color: white;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .portion-input button:hover {
