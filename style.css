@@ -314,12 +314,7 @@ nav a:hover {
   }
 }
 
-@media (max-width: 400px) {
-  .ideas img {
-    height: 250px;
-    width: 250px;
-  }
-}
+
 
 /*== 3. SECTION ==*/
 
@@ -843,5 +838,16 @@ textarea {
   .recipe-info {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .ideas img {
+    height: 250px;
+    width: 250px;
+  }
+
+.footer-links a:hover {
+    text-decoration: none;
   }
 }
