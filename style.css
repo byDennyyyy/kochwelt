@@ -582,7 +582,7 @@ hr {
 .portion-input {
   display: flex;
   align-items: center;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .portion-input input {
@@ -604,6 +604,12 @@ hr {
 
 .portion-input button:hover {
   background-color: #05970a;
+}
+
+.portion-line {
+  height: 2px;
+  background-color: #f1eaea;
+  margin-top: 32px;
 }
 
 .profile {
