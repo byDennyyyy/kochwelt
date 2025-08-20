@@ -173,6 +173,10 @@ nav a:hover {
   .daily-recipe img {
     height: 200px;
   }
+
+  .daily-recipe p {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 768px) {
