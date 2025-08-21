@@ -246,6 +246,11 @@ footer {
   align-items: start;
 }
 
+.footer-content-left a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer-logo-img {
   height: 80px;
   width: auto;
