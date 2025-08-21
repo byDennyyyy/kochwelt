@@ -547,6 +547,14 @@ textarea {
     padding-right: 56px;
   }
 
+  .header-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 83px;
+}
+
   /* Daily Recipe */
   .daily-recipe img {
     height: 200px;
