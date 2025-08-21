@@ -48,7 +48,7 @@ h3 {
   top: 0;
   left: 0;
   right: 0;
-  margin-top: 100px;
+  margin-top: 102px;
   background: linear-gradient(#ececed, #ffffff);
   height: 10px;
 }
@@ -74,6 +74,28 @@ h3 {
 
 header img {
   height: 80px;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
 }
 
 nav ul {
@@ -399,14 +421,14 @@ figure {
   margin-top: 8px;
 }
 
-.portion-input input {
+.portion-input input[type="number"] {
   margin-left: 8px;
   padding: 10px;
   border: 1px solid #f1eaea;
   border-radius: 5px 0 0 5px;
 }
 
-.portion-input button {
+.portion-input input[type="submit"] {
   padding: 11px 32px;
   border: none;
   border-radius: 0;
@@ -568,6 +590,14 @@ textarea {
     padding-right: 56px;
   }
 
+  .header-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 83px;
+}
+
   /* Daily Recipe */
   .daily-recipe img {
     height: 200px;
@@ -649,12 +679,42 @@ textarea {
   }
 
   /* Navigation */
-  .header-nav {
-    justify-content: center;
+
+  .hamburger{
+    display: block;
   }
 
-  nav ul {
-    display: none;
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 90px;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    background-color: #ececed;
+
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+  .nav-menu.active{
+    left: 0;
+  }
+
+  .header-nav {
+    justify-content: space-between;
+    align-items: center;
   }
 
   header img {
