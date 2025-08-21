@@ -43,6 +43,16 @@ h3 {
   padding-top: 16px;
 }
 
+.header-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 100px;
+  background: linear-gradient(#ececed, #ffffff);
+  height: 10px;
+}
+
 .widescreen {
   max-width: 1440px;
   margin: 0 auto;
@@ -64,11 +74,6 @@ h3 {
 
 header img {
   height: 80px;
-}
-
-.header-line {
-  height: 10px;
-  background: linear-gradient(#ececed, #ffffff);
 }
 
 nav ul {
