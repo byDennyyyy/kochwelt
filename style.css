@@ -376,6 +376,7 @@ figure {
 .ingredients-left {
   text-align: right;
   border-radius: 8px 0 0 8px;
+  width: 200px;
 }
 
 .ingredients tr:nth-child(odd) {
@@ -842,6 +843,10 @@ textarea {
 
   .ingredients {
     font-size: 14px;
+  }
+
+  .ingredients-left {
+    width: 100px;
   }
 
   .recipe-info {
