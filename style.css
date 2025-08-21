@@ -399,14 +399,14 @@ figure {
   margin-top: 8px;
 }
 
-.portion-input input {
+.portion-input input[type="number"] {
   margin-left: 8px;
   padding: 10px;
   border: 1px solid #f1eaea;
   border-radius: 5px 0 0 5px;
 }
 
-.portion-input button {
+.portion-input input[type="submit"] {
   padding: 11px 32px;
   border: none;
   border-radius: 0;
