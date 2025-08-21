@@ -520,6 +520,27 @@ textarea {
   width: 100%;
 }
 
+/*== SEND_MAIL SITE ==*/
+
+.submit-container {
+  height: 1400px;
+  display: flex;
+  align-items: center;
+}
+
+.submit-box {
+  background-color: #eeefee;
+  display: flex;
+  padding: 24px;
+  border-radius: 10px;
+  gap: 24px;
+}
+
+.submit-box img {
+  height: 300px;
+  width: 400px
+}
+
 /*== IMPRINT SITE ==*/
 
 .imprint {
