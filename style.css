@@ -76,19 +76,19 @@ header img {
   height: 80px;
 }
 
-.nav-menu{
+.nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 16px;
 }
 
-.hamburger{
+.hamburger {
   display: none;
   cursor: pointer;
 }
 
-.bar{
+.bar {
   display: block;
   width: 25px;
   height: 3px;
@@ -547,6 +547,7 @@ textarea {
 .submit-container {
   height: 1400px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -556,11 +557,12 @@ textarea {
   padding: 24px;
   border-radius: 10px;
   gap: 24px;
+  margin: 0px 48px;
 }
 
 .submit-box img {
-  height: 300px;
-  width: 400px
+  height: 240px;
+  width: 320px;
 }
 
 /*== IMPRINT SITE ==*/
@@ -591,12 +593,12 @@ textarea {
   }
 
   .header-line {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-top: 83px;
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 83px;
+  }
 
   /* Daily Recipe */
   .daily-recipe img {
@@ -680,20 +682,20 @@ textarea {
 
   /* Navigation */
 
-  .hamburger{
+  .hamburger {
     display: block;
   }
 
-  .hamburger.active .bar:nth-child(2){
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  .hamburger.active .bar:nth-child(1){
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  .hamburger.active .bar:nth-child(3){
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .nav-menu{
+  .nav-menu {
     position: fixed;
     left: -100%;
     top: 90px;
@@ -703,12 +705,11 @@ textarea {
     text-align: center;
     transition: 0.3s;
     background-color: #ececed;
-
   }
-  .nav-item{
+  .nav-item {
     margin: 16px 0;
   }
-  .nav-menu.active{
+  .nav-menu.active {
     left: 0;
   }
 
@@ -861,6 +862,19 @@ textarea {
   .imprint ul {
     padding-left: 18px;
   }
+
+  /* Submit Form */
+  .submit-box {
+    width: 480px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .submit-box h2 {
+    padding-bottom: 22px;
+  }
 }
 
 /* 600px */
@@ -944,6 +958,11 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
+
+  .submit-box h2 {
+    font-size: 22px;
+    padding: 16px 0px 8px 0px;
+  }
 }
 
 /* 442px */
@@ -970,6 +989,25 @@ textarea {
 
   .footer-links a:hover {
     text-decoration: none;
+  }
+
+  /* Submit Form */
+  .submit-box {
+    width: 300px;
+    flex-direction: column;
+    padding: 24px 16px 24px 16px;
+    gap: 8px;
+  }
+
+  .submit-box h2 {
+    font-size: 22px;
+    padding: 16px 0px 8px 0px;
+  }
+
+  .submit-box img {
+    width: 240px;
+    height: auto;
+    object-fit: cover;
   }
 }
 
