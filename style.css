@@ -76,6 +76,28 @@ header img {
   height: 80px;
 }
 
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
 nav ul {
   font-family: "Raleway-Regular", sans-serif;
   list-style: none;
@@ -636,8 +658,6 @@ textarea {
   }
 
   /* Navigation */
-<<<<<<< Updated upstream
-=======
 
   .hamburger{
     display: block;
@@ -662,6 +682,7 @@ textarea {
     text-align: center;
     transition: 0.3s;
     background-color: #ececed;
+
   }
   .nav-item{
     margin: 16px 0;
@@ -670,14 +691,9 @@ textarea {
     left: 0;
   }
 
->>>>>>> Stashed changes
   .header-nav {
     justify-content: space-between;
     align-items: center;
-  }
-
-  nav ul {
-    display: none;
   }
 
   header img {
