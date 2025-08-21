@@ -565,6 +565,26 @@ textarea {
   width: 320px;
 }
 
+.submit-box button {
+  background-color: #028102;
+  padding: 10px 28px;
+  border: 1px;
+  cursor: pointer;
+  font-family: "Raleway-Regular";
+  font-size: 20px;
+  transition: all 0.15s ease-in-out;
+  margin-top: 16px;
+}
+
+.submit-box button:hover {
+  background-color: #05970a;
+}
+
+.submit-box button a {
+  text-decoration: none;
+  color: white;
+}
+
 /*== IMPRINT SITE ==*/
 
 .imprint {
@@ -663,6 +683,10 @@ textarea {
     font-size: 22px;
     padding-top: 24px;
     padding-bottom: 16px;
+  }
+
+  .submit-box button {
+    padding: 10px 26px;
   }
 }
 
@@ -962,6 +986,16 @@ textarea {
   .submit-box h2 {
     font-size: 22px;
     padding: 16px 0px 8px 0px;
+  }
+
+  /* Submit Form */
+  .submit-box p {
+    font-size: 14px;
+  }
+
+  .submit-box button {
+    padding: 8px 24spx;
+    font-size: 16px;
   }
 }
 
