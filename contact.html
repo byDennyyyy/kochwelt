@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <script src="script_contact.js"></script>
     <link rel="icon" href="./assets/img/logo_small.png" type="img2/x-icon" />
     <title>Kontakt</title>
   </head>
@@ -30,12 +31,12 @@
         <div class="contact-box">
           <h2>Kontaktiere uns</h2><br>
 
-          <form>
-            <p>Dein Name:</p>
+          <form onsubmit="sendMail(event)">
+            <label>Dein Name:</label>
             <input class="input-form" type="text" name="name" placeholder="" required size="80" ><br><br>
-            <p>Deine Email:</p>
+            <label>Deine Email:</label>
             <input class="input-form" type="email" name="email" placeholder="" required size="80"><br><br>
-            <p>Deine Nachricht:</p>
+            <label>Deine Nachricht:</label>
             <!-- <input type="text" name="message" placeholder="" required size="60"><br><br> -->
             <textarea name="message" required></textarea><br><br>
             <div class="button-wrapper">

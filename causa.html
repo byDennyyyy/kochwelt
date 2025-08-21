@@ -63,10 +63,11 @@
     <section class="widescreen">
       <div class="padding-left-right">
         <div class="portion-line"></div>
-        <div class="portion-input">
-          Zutaten für <input type="number" placeholder="Anzahl der Portionen" />
-          <button>Portionen</button>
-        </div>
+        <form class="portion-input">
+          <label for="amount">Zutaten für</label>
+          <input id="amount" min="1" type="number" placeholder="Anzahl der Portionen"/>
+          <input type="submit" value="Portionen"/>
+        </form>
 
         <table class="ingredients">
           <tr>
